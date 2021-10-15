@@ -23,76 +23,92 @@
           <h1>Your Song List</h1>
         </div>
         <div class="RealSongOnlyList">
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="0" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">03:18</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="1" class="songItem">
+            <span class="songName">My Hero Academia - Hero A</span>
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="2" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="3" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="4" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="5" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="6" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="7" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="8" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+          <div id="9" class="songItem">
+            <span class="songName"
+              >My Hero Academia - Jet Set Run (You Say Run V2)</span
+            >
             <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
-            </div>
-          </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
-            <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
-            </div>
-          </div>
-          <div class="songItem">
-            <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
-            <div class="songDetails">
-              <span>04:01</span> <i class="far fa-play-circle"></i>
+              <span class="songDuration">04:01</span>
+              <i class="songPlay far fa-play-circle"></i>
             </div>
           </div>
         </div>
@@ -100,15 +116,24 @@
       <div class="songBanner"></div>
     </div>
     <div class="audioTracker">
-      <input type="range" name="audi" id="audioProgress" min="0" max="100" />
+      <input
+        value="0"
+        type="range"
+        name="audi"
+        id="audioProgress"
+        min="0"
+        max="100"
+      />
       <div class="icons">
-        <i class="fas fa-2x fa-step-backward"></i>
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
         <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
-        <i class="fas fa-2x fa-step-forward"></i>
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
       </div>
       <div class="songInfo">
-        <img src="playing.gif" width="42px" alt="" />
-        <span>My Hero Academia - Jet Set Run (You Say Run V2)</span>
+        <img src="playing.gif" width="42px" alt="" id="gif" />
+        <span id="masterSongName"
+          >My Hero Academia - Jet Set Run (You Say Run V2)</span
+        >
       </div>
     </div>
     <script

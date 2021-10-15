@@ -125,12 +125,73 @@ nav ul li {
 .RealSongOnlyList {
   margin-top: 60px;
   width: 600px;
+  padding-left: 14px;
 }
 .songInfo {
   position: fixed;
   left: 10vw;
+  bottom: 2vh;
+  display: flex;
+  align-items: center;
   font-family: "Varela Round", sans-serif;
   color: white;
+  background: none;
+}
+#gif {
+  transition: all 0.5s ease-in;
   opacity: 0;
-  transition: all 1s ease-in;
+  object-fit: none;
+  width: 170px;
+  height: 100px;
+  left: -183px;
+  position: absolute;
+  background: none;
+}
+.songInfo span {
+  background: none;
+}
+.songPlay {
+  font-size: 19px;
+  margin-left: 5px;
+}
+.songDetails {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 80vw;
+  }
+  .songTitle {
+    width: 80vw;
+  }
+  .songItem {
+    width: 65vw;
+    font-size: 0.8rem;
+  }
+  .songInfo {
+    position: absolute;
+    left: 30vw;
+    font-size: 0.7rem;
+    width: 34vw;
+  }
+  .icons {
+    position: absolute;
+    right: 6vw;
+    bottom: 10px;
+  }
+  #audioProgress {
+    position: absolute;
+    bottom: 7vh;
+  }
+  #gif {
+    position: absolute;
+    left: -29vw;
+    width: 100px;
+    height: 40px;
+  }
 }
